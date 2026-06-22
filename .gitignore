@@ -1,0 +1,12 @@
+# Node tooling (regenerable — the built web/dist is committed)
+node_modules/
+web/node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# Local / private
+*.local

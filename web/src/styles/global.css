@@ -1,0 +1,33 @@
+@import "./tokens.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root { width: 100%; height: 100%; overflow: hidden; }
+
+body {
+  font-family: var(--font);
+  color: var(--text-hi);
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+/* Browser-harness stage so the glass has a backdrop. */
+body.harness-bg {
+  background:
+    radial-gradient(1100px 760px at 80% 16%, rgba(var(--vis-accent-rgb), 0.16), transparent 60%),
+    radial-gradient(820px 680px at 18% 92%, rgba(var(--vis-accent-rgb), 0.1), transparent 62%),
+    linear-gradient(140deg, #08040f, #040207 58%, #020103);
+}
+
+#root { display: flex; }
+
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-thumb { background: rgba(var(--vis-accent-rgb), 0.35); border-radius: 999px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+button { font-family: inherit; color: inherit; border: none; background: none; cursor: pointer; }
+
+@keyframes vis-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes vis-fade { from { opacity: 0; } to { opacity: 1; } }
