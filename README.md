@@ -53,3 +53,9 @@ bridges NUI callbacks to the core's inventory engine.
 ---
 
 © Viscosity. Built and maintained by Viscosity Gaming Studio.
+
+## License
+
+Copyright (c) 2026 **AndyBodnar (Viscosity)**. All rights reserved. See [LICENSE](LICENSE).
+
+Run it on your own server and modify it however you like. Do **not** resell it, repackage it, re-upload it as your own, or strip the credits. Public use must credit AndyBodnar (Viscosity). This is my work — I'm sharing it, not giving it away.

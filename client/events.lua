@@ -1,3 +1,8 @@
+-- ============================================================================
+--  viscosity_inventory  ·  (c) 2026 AndyBodnar (Viscosity)
+--  https://github.com/AndyBodnar/viscosity_inventory
+--  Server use only. No resale, repackaging, or credit removal. See LICENSE.
+-- ============================================================================
 -- ============================================================
 --  Viscosity Inventory — events / wiring
 --  The only file that registers anything. Routes the UI to the
